@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Calories Prediction Webapp/.idea/Calories Prediction Webapp.iml" filepath="$PROJECT_DIR$/../Calories Prediction Webapp/.idea/Calories Prediction Webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Loan_Status_Classifier.iml" filepath="$PROJECT_DIR$/.idea/Loan_Status_Classifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../python_Practice/.idea/python_Practice.iml" filepath="$PROJECT_DIR$/../python_Practice/.idea/python_Practice.iml" />
+    </modules>
+  </component>
+</project>
