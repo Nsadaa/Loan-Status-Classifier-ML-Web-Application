@@ -1,29 +1,17 @@
 
-.box{
-
-    width: 50px;
-    height: 700px;
-    background: rgb(92,124,204);
-    top:5%;
-    left:-1.5%;
-    position: absolute;
-    border-radius:20px;
-
-}
-
 h1{
-    font-size: 53pt;
-    color:rgb(31, 31, 31);
+    font-size: 65pt;
+    color:rgb(27, 27, 27);
     position: absolute;
-    top:-2%;
-    left:4%;
+    top: -1%;
+    left:2%;
 }
 
 .box2 {
 
     color: rgb(24, 24, 24);
-    top:18%;
-    left:5%;
+    top:25%;
+    left:3%;
     border-radius: 10%;
     position: absolute;
     box-sizing: border-box;
@@ -77,7 +65,7 @@ h1{
     background:  rgb(92,124,204);
     outline: none;
     height: 70px;
-    width: 200px;
+    width: 170px;
     color: #fff;
     font-size: 27px;
     font-family: 'Times New Roman';
@@ -90,50 +78,42 @@ h1{
 .box2 input[type=reset]{
     border: none;
     border-radius: 13px;
-    background: rgb(236, 16, 0);
+    background: rgb(238, 29, 14);
     outline: none;
     height: 70px;
-    width: 200px;
+    width: 170px;
     color: #fff;
     font-size: 27px;
     font-family: 'Times New Roman';
     position:absolute;
     top: 98%;
-    left: 17%;
+    left: 12.85%;
     cursor: pointer;
 }
 
 button[name="backbtn"]{
 
     border: none;
-    border-radius: 35px;
+    border-radius: 13px;
     background: rgba(250, 227, 20, 0.993);
     outline: none;
-    height: 40px;
-    width: 110px;
+    height: 70px;
+    width: 170px;
     color: rgb(34, 34, 34);
-    font-size: 20px;
+    font-size: 27px;
     font-family: 'Times New Roman';
     position:absolute;
-    top: 6.8%;
-    left: 90%;
+    top: 77%;
+    left: 24.5%;
     cursor: pointer;
 
 }
 
-img[name="bulb"]{
-    width: 25%;
-    height: 53%;
+img[name="Fm_pic"]{
+    width: 21%;
+    height: 65%;
     position: absolute;
-    top:14%;
-    left:70%;
-}
-
-img[name="brain"]{
-    width: 13%;
-    height: 27%;
-    position: absolute;
-    top:66%;
-    left:76.5%;
+    top:13%;
+    left:75%;
 }
 
