@@ -4,7 +4,7 @@
     width: 50px;
     height: 700px;
     background: rgb(92,124,204);
-    top:2%;
+    top:5%;
     left:-1.5%;
     position: absolute;
     border-radius:20px;
@@ -12,7 +12,7 @@
 }
 
 h1{
-    font-size: 50pt;
+    font-size: 53pt;
     color:rgb(31, 31, 31);
     position: absolute;
     top:-2%;
@@ -107,11 +107,11 @@ button[name="backbtn"]{
 
     border: none;
     border-radius: 35px;
-    background: rgb(48, 48, 48);
+    background: rgba(250, 227, 20, 0.993);
     outline: none;
     height: 40px;
     width: 110px;
-    color: #fff;
+    color: rgb(34, 34, 34);
     font-size: 20px;
     font-family: 'Times New Roman';
     position:absolute;
@@ -120,3 +120,20 @@ button[name="backbtn"]{
     cursor: pointer;
 
 }
+
+img[name="bulb"]{
+    width: 25%;
+    height: 53%;
+    position: absolute;
+    top:14%;
+    left:70%;
+}
+
+img[name="brain"]{
+    width: 13%;
+    height: 27%;
+    position: absolute;
+    top:66%;
+    left:76.5%;
+}
+
