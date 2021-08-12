@@ -8,7 +8,7 @@ img[name="AI"]{
     left:56%;
 }
 
-img[name="message_image"]{
+img[name="message_accepted"]{
 
     position: absolute;
     width: 22%;
@@ -17,8 +17,21 @@ img[name="message_image"]{
     left: 65%;
     -webkit-filter: drop-shadow(3px 3px 3px #505050);
     filter: drop-shadow(3px 3px 3px #555555);
-
 }
+
+img[name="message_denied"]{
+
+    position: absolute;
+    width: 22%;
+    height: 37%;
+    top: 50%;
+    left: 65%;
+    -webkit-filter: drop-shadow(3px 3px 3px #505050);
+    filter: drop-shadow(3px 3px 3px #555555);
+}
+
+
+
 
 h1{
     font-size: 70pt;
@@ -37,6 +50,16 @@ h2{
     top: 25%;
     left: 18%;
 }
+
+h3{
+    font-size: 90pt;
+    font-family: 'Times New Roman';
+    color: rgb(219, 26, 26);
+    position: absolute;
+    top: 22.1%;
+    left: 19.8%;
+}
+
 
 .box{
 

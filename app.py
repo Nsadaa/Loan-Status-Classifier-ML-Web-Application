@@ -14,14 +14,11 @@ def Home():
     #render template
     return render_template('index.html')
 
-
 @app.route('/Form',methods=["GET"])
 def Form():
 
     #render template
     return render_template('form.html')
-
-
 
 
 if __name__ == '__main__':
