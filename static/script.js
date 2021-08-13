@@ -7,6 +7,10 @@ function clear_function(){
     document.getElementById("form").reset();
 }
 
+function form_load(){
+    document.body.style.zoom = "90%";
+}
+
 // calling form on button click
 //function back_function(){ window.location="C:/Users/SADARUWAN/PycharmProjects/Loan_Status_Classifier/templates/index.html"; }//
 
