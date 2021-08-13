@@ -21,5 +21,21 @@ def Form():
     return render_template('form.html')
 
 
+#get form data
+@app.route('/classifier',methods=['GET','POST'])
+def classifier():
+
+    #checking request type
+    str_req_type = request.method
+
+    #convert string value into numeric value
+    if request.method == str(str_req_type):
+
+        x = request.args.get('loanamount')
+
+        value_cl = "Accepted"
+        return  render_template('result.html', value=value_cl)
+
+
 if __name__ == '__main__':
     app.run(debug=True)
