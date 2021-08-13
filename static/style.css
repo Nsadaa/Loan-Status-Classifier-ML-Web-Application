@@ -31,17 +31,18 @@
 
     border: none;
     border-radius: 40px;
-    background: rgb(251,126,116);
+    background:  rgb(251, 126, 116);
     outline: none;
     height: 70px;
     width: 200px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 27px;
     font-family: 'Times New Roman';
     position:absolute;
     top: 47%;
     left: 4%;
     cursor: pointer;
+    transition-duration:0.4s;
     
 }
 
