@@ -94,3 +94,21 @@ button[name="backbtn"]{
 
 }
 
+button[name="homebtn"]{
+
+    border: none;
+    border-radius: 13px;
+    background: rgb(52, 52, 53);
+    outline: none;
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    position:absolute;
+    top: 5%;
+    left: 91%;
+    cursor: pointer;
+
+}
+
