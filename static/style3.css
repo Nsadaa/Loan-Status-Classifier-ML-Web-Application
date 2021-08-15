@@ -109,6 +109,13 @@ button[name="homebtn"]{
     top: 5%;
     left: 91%;
     cursor: pointer;
-
+    transition-duration: 0.4s;
 }
 
+button[name="homebtn"]:hover{
+
+    background : white;
+    border: 2px solid rgb(52, 52, 53);
+    color:rgb(52, 52, 53);
+
+}
