@@ -73,6 +73,14 @@ h1{
     top: 98%;
     left: -1%;
     cursor: pointer;
+    transition-duration:0.4s;
+}
+
+.box2 input[type=submit]:hover{
+    background: white;
+    color:rgb(92,124,204);
+    border: 2px solid rgb(92,124,204);
+
 }
 
 .box2 input[type=reset]{
@@ -89,6 +97,14 @@ h1{
     top: 98%;
     left: 12.85%;
     cursor: pointer;
+    transition-duration:0.4s;
+}
+
+.box2 input[type=reset]:hover{
+    background: white;
+    color:rgb(238, 29, 14);
+    border: 2px solid rgb(238, 29, 14);
+
 }
 
 button[name="backbtn"]{
@@ -106,6 +122,12 @@ button[name="backbtn"]{
     top: 77%;
     left: 24.5%;
     cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button[name="backbtn"]:hover{
+    background: white;
+    border: 2px solid rgba(250, 227, 20, 0.993);
 
 }
 
