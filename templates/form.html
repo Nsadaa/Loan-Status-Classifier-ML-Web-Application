@@ -46,8 +46,10 @@
             <select name="dependents">
 
                 <option value="" disabled selected hidden></option>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3+">3+</option>
 
               </select>   &emsp; &nbsp; &emsp;&emsp;&nbsp;
 
@@ -56,8 +58,8 @@
             <select name="education">
 
                 <option value="" disabled selected hidden></option>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
+                <option value="graduate">Graduate</option>
+                <option value="not_graduate">Not Graduate</option>
 
               </select>   &emsp; &nbsp; &emsp;&emsp;&nbsp; <br>
 
@@ -66,8 +68,8 @@
             <select name="self_emp_status">
 
                 <option value="" disabled selected hidden></option>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
 
               </select>   &emsp; &nbsp; &emsp;&emsp;&nbsp;
 
@@ -76,17 +78,25 @@
             <select name="property_area">
 
                 <option value="" disabled selected hidden></option>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
+                <option value="Urban">Urban</option>
+                <option value="rural">Rural</option>
+                <option value="semi_urban">Semi Urban</option>
 
               </select>   &emsp; &nbsp; &emsp;&emsp;&nbsp; <br>
 
 
             <label for="credithistory">Credit History</label> &emsp;&emsp;&emsp;&emsp;&nbsp;
-            <input type="text" id="credithistory" name="credithistory" > &emsp; &nbsp; &emsp;&emsp;&nbsp;
+            <select name="credithistory">
 
-            <label for="loanamount">Applicant Income</label> &nbsp;
-            <input type="text" id="loanamount" name="loanamount"> <br>
+              <option value="" disabled selected hidden></option>
+              <option value="1">Yes</option>
+              <option value="0">No</option>
+
+            </select>   &emsp; &nbsp; &emsp;&emsp;&nbsp;
+
+
+            <label for="app_income">Applicant Income</label> &nbsp;
+            <input type="text" id="app_income" name="app_income"> <br>
 
             <label for="co_app_ic">Co-Applicant Income</label> &emsp;&nbsp;
             <input type="text" id="co_app_ic" name="co_app_ic"> &emsp; &nbsp; &emsp;&emsp;&nbsp;
