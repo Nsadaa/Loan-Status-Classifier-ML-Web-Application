@@ -30,9 +30,6 @@ img[name="message_denied"]{
     filter: drop-shadow(3px 3px 3px #555555);
 }
 
-
-
-
 h1{
     font-size: 70pt;
     font-family: 'Times New Roman';
@@ -60,7 +57,6 @@ h3{
     left: 19.8%;
 }
 
-
 .box{
 
     width: 550px;
@@ -83,16 +79,25 @@ button[name="backbtn"]{
     background: rgba(250, 227, 20, 0.993);
     outline: none;
     height: 50px;
-    width: 140px;
+    width: 110px;
     color: rgb(34, 34, 34);
-    font-size: 22px;
+    font-size: 21px;
     font-family: 'Times New Roman';
     position:absolute;
     top: 72%;
-    left: 41.25%;
+    left: 43.30%;
     cursor: pointer;
+    transition-duration:0.4s;
+}
+button[name="backbtn"]:hover{
+
+    background : white;
+    border: 2px solid rgb(250, 227, 20, 0.993);
+    color:rgb(34, 34, 34);
 
 }
+
+
 
 button[name="homebtn"]{
 
