@@ -57,8 +57,10 @@ df.hist(figsize=(15,15))
 plt.show()
 
 # fill missing values of numerical variable by using mean
-df['LoanAmount'] = df['LoanAmount'].fillna(df['LoanAmount'].mean())
-df['Loan_Amount_Term'] = df['Loan_Amount_Term'].fillna(df['Loan_Amount_Term'].median())
+df['LoanAmount'] = df['LoanAmount'].fillna(df['LoanAmount'].median())
+
+# loan term shows discrete data but it higher number of categories. therefore in here we handle it as a continues varible
+df['Loan_Amount_Term'] = df['Loan_Amount_Term'].fillna(df['Loan_Amount_Term'].mode()[0])
 
 # fill missing values of categorical variables by using mode
 df['Credit_History'] = df['Credit_History'].fillna(df['Credit_History'].mode()[0])
@@ -376,7 +378,7 @@ clf.best_estimator_
 
 # test model with tuned values
 Tuned_model = RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
-                       criterion='gini', max_depth=30, max_features='auto',
+                       criterion='gini', max_depth=None, max_features='auto',
                        max_leaf_nodes=None, max_samples=None,
                        min_impurity_decrease=0.0, min_impurity_split=None,
                        min_samples_leaf=1, min_samples_split=2,
