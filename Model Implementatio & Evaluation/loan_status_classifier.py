@@ -275,7 +275,7 @@ sc = StandardScaler()
 x = sc.fit_transform(x)
 
 # divide into training set & test sets
-x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.25, random_state=42)
+x_train, x_test, y_train, y_test = train_test_split(x,y, test_size=0.2, random_state=42)
 
 #define functions for fit, & predict with each models
 def models(mod,x_t,y_t,x_tes,y_tes,x_source,y_source):
@@ -377,14 +377,7 @@ clf.best_estimator_
 """### **Test Model With Tuned Values** : *Decision Tree Classifier*"""
 
 # test model with tuned values
-Tuned_model = RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
-                       criterion='gini', max_depth=None, max_features='auto',
-                       max_leaf_nodes=None, max_samples=None,
-                       min_impurity_decrease=0.0, min_impurity_split=None,
-                       min_samples_leaf=1, min_samples_split=2,
-                       min_weight_fraction_leaf=0.0, n_estimators=400,
-                       n_jobs=None, oob_score=False, random_state=42, verbose=0,
-                       warm_start=False)
+Tuned_model = RandomForestClassifier(criterion='gini',max_depth=None, max_features='auto',n_estimators=500,random_state=42)
 
 
 models(Tuned_model,x_train,y_train,x_test,y_test,x,y )
@@ -428,17 +421,17 @@ def classifer(input_data):
 def main():
 
   Gender  = 'Male'                
-  Martial_st = 'Unmarried'               
-  Dependents = '0'            
+  Martial_st = 'Maried'               
+  Dependents = '1'            
   Education = 'Graduate'          
   Self_Employed = 'No'            
   Credit_History = 'Yes' 
-  Property_Area = 'Semi Urban'
+  Property_Area = 'Urban'
 
-  ApplicantIncome = 5849        
-  CoapplicantIncome =  0  
-  LoanAmount = 146.412162         
-  Loan_Amount_Term =  360
+  ApplicantIncome = 4583        
+  CoapplicantIncome =  1508.0  
+  LoanAmount = 128.0         
+  Loan_Amount_Term =  360.0	
 
 
 #change gender.........................................
@@ -508,17 +501,22 @@ def main():
 
 
 
-#main
+#call the main function
 main()
 
-"""### **Save Scaler**"""
+"""### *Model predict value with 85% accuracy. Then now save the model & scaler as obejcts for deployments*
 
+### **Save Scaler**
+"""
+
+#save scaler as object
 import pickle
 scalerfile = 'scaler.save'
 pickle.dump(sc, open(scalerfile, 'wb'))
 
 """### **Save Model**"""
 
+#save model as obejct
 with open('Loan_cls_model','wb') as f:
   pickle.dump(Tuned_model,f)
 
