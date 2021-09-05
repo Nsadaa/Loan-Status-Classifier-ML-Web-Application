@@ -6,7 +6,7 @@
 ## View [Deployed Web Application](https://loan-status-classifier-webapp.herokuapp.com/) In Cloud
 
 - Model implementation & Evaluation : [Click Here](https://github.com/Nsadaa/Loan-Status-Classifier-ML-Web-Application/tree/main/Model%20Implementatio%20%26%20Evaluation) 
-( Download the HTML version of jupyter notebook in this path for better view of the model implementation & evaluation )
+( Download the HTML version of jupyter notebook in this path for better view of the model implementation & evaluation ).
 
 ### Objectives
 
