@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Calories Prediction Webapp/.idea/Calories Prediction Webapp.iml" filepath="$PROJECT_DIR$/../Calories Prediction Webapp/.idea/Calories Prediction Webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Heart Failure Classifier Webapp/.idea/Heart Failure Classifier Webapp.iml" filepath="$PROJECT_DIR$/../Heart Failure Classifier Webapp/.idea/Heart Failure Classifier Webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Heart_Failure_Classifer_(ML)_Webapplication/.idea/Heart_Failure_Classifer_(ML)_Webapplication.iml" filepath="$PROJECT_DIR$/../Heart_Failure_Classifer_(ML)_Webapplication/.idea/Heart_Failure_Classifer_(ML)_Webapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Loan_Status_Classifier.iml" filepath="$PROJECT_DIR$/.idea/Loan_Status_Classifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/../python_Practice/.idea/python_Practice.iml" filepath="$PROJECT_DIR$/../python_Practice/.idea/python_Practice.iml" />
     </modules>

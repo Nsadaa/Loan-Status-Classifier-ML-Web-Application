@@ -95,7 +95,7 @@ h1{
     font-family: 'Times New Roman';
     position:absolute;
     top: 98%;
-    left: 12.85%;
+    left: 13.85%;
     cursor: pointer;
     transition-duration:0.4s;
 }
@@ -119,8 +119,8 @@ button[name="backbtn"]{
     font-size: 27px;
     font-family: 'Times New Roman';
     position:absolute;
-    top: 77%;
-    left: 24.5%;
+    top: 80.7%;
+    left: 25.9%;
     cursor: pointer;
     transition-duration: 0.4s;
 }

@@ -8,5 +8,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="python_Practice" />
     <orderEntry type="module" module-name="Calories Prediction Webapp" />
+    <orderEntry type="module" module-name="Heart_Failure_Classifer_(ML)_Webapplication" />
+    <orderEntry type="module" module-name="Heart Failure Classifier Webapp" />
   </component>
 </module>

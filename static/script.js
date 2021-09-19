@@ -8,7 +8,7 @@ function clear_function(){
 }
 
 function form_load(){
-    document.body.style.zoom = "90%";
+    document.body.style.zoom = "100%";
 }
 
 // calling form on button click
